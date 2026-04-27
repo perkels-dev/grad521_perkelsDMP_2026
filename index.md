@@ -1,3 +1,4 @@
+# Data Management Plan
 # Data Description
 The research question I’m trying to answer is, generally, how animals sense stimuli. We have identified proteins that are important for sensing the environment but how those proteins do that is sometimes still unknown. For my project, we are trying to solve the structure of some of these proteins in order to better understand their function.
 The data that has been and will be collected are all experimental. Already collected data are spreadsheets, images, and videos. This project will also generate specialized data formats that I’m not familiar with at the moment but will likely be image files, text files, and 3D model data.
