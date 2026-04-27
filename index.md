@@ -6,6 +6,7 @@ Types of data:
 1.	Spreadsheet data – 1-2MB
 2.	Image and video data – >1MB
 3.	Structural data – unclear at the moment but likely 2-5TB
+
 # Roles and responsibilities
 Our research data must comply with our funder, which is the NIH. This will require us to share as much of our data as possible, and since we don’t work with protected data, that will likely be most of it.
 •	archiving and preservation – my PI, primarily, but I will definitely play some kind of role here
@@ -21,7 +22,11 @@ Our research data must comply with our funder, which is the NIH. This will requi
 •	access control – me and my PI
 •	software creation and maintenance – if it becomes necessary, me, but this is largely not applicable
 The data will be stored on several lab computers locally, in the cloud (via OneDrive), and, for the very large datasets I expect to generate, on the Boreal supercomputer at the Pacific Northwest CryoEM Center (PNCC). I plan to further backup my data (that is stored locally) to external hard-drives which will stay in the lab. For the very large datasets, those are managed and backed up at PNCC.
+
 # Data standards and metadata
+
 # Storage and security
+
 # Access and data sharing
+
 # Archiving and preservation
