@@ -9,18 +9,31 @@ Types of data:
 
 # Roles and responsibilities
 Our research data must comply with our funder, which is the NIH. This will require us to share as much of our data as possible, and since we don’t work with protected data, that will likely be most of it.
+
 •	archiving and preservation – my PI, primarily, but I will definitely play some kind of role here
+
 •	data manager – me
-•	protection of sensitive and protected data – unnecessary 
+
+•	protection of sensitive and protected data – unnecessary
+
 •	instrumentation maintenance – all graduate students in the lab and our PI 
+
 •	data collection/data generation – me 
+
 •	data organization – me 
+
 •	metadata generation – also me
+
 •	quality control – me and my PI
+
 •	data analysis – me and my PI
+
 •	DMP implementation – mostly my PI but I also will be involved here
+
 •	access control – me and my PI
+
 •	software creation and maintenance – if it becomes necessary, me, but this is largely not applicable
+
 The data will be stored on several lab computers locally, in the cloud (via OneDrive), and, for the very large datasets I expect to generate, on the Boreal supercomputer at the Pacific Northwest CryoEM Center (PNCC). I plan to further backup my data (that is stored locally) to external hard-drives which will stay in the lab. For the very large datasets, those are managed and backed up at PNCC.
 
 # Data standards and metadata
