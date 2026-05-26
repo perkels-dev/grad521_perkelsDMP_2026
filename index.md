@@ -2,18 +2,18 @@
 ## Data Description
 The research question I’m trying to answer is, generally, how animals sense stimuli. We have identified proteins that are important for sensing the environment but how those proteins do that is sometimes still unknown. For my project, we are trying to solve the structure of some of these proteins in order to better understand their function.
 The data that has been and will be collected are all experimental. Already collected data are spreadsheets, images, and videos. This project will also generate specialized data formats that I’m not familiar with at the moment but will likely be image files, text files, and 3D model data.
-The majority of the spreadsheet data has and will be collected with an HPLC (high performance liquid chromatography) instrument. Some of the spreadsheet data is generated and analyzed by a mass spectrometry resource at OHSU. The video data will be collected with a video camera. The image data has been collected with a instrument that images gels (this is a protein analysis tool, basically). The structural data will be generated at a cryo-EM center (likely PNCC). The majority of that data will be stored and processed on their supercomputer.
+The majority of the spreadsheet data has and will be collected with an HPLC (high performance liquid chromatography) instrument. Some of the spreadsheet data is generated and analyzed by a mass spectrometry resource at OHSU. The video data will be collected with a video camera. The image data has been collected with a instrument that images gels (this is a protein analysis tool, basically). The structural data will be generated at a cryo-EM center (likely the Pacific Northwest Cryo-EM Center or PNCC). The majority of that data will be processed on their supercomputer and stored through the Pacific Northwest National Lab (PNNL) and the Protein Databank/EM Database (PDB/EMDB).
 Types of data:
 1.	Spreadsheet data – 1-2MB
 2.	Image and video data – >1MB
 3.	Structural data – unclear at the moment but likely 2-5TB
 
 ## Roles and responsibilities
-Our research data must comply with our funder, which is the NIH. This will require us to share as much of our data as possible, and since we don’t work with protected data, that will likely be all of it.
+Our research data must comply with Oregon State University's policies on data management as well as the National Institutes of Health, who is our funder. This research is being conducted at OSU and uses animal tissue samples, so the datasets created over the course of this project are required by the university to be preserved for at least 3 years after project completion. Additionally, the NIH is the funder of this project and requires that all research data (i.e. data needed to validate and replicate experiments) needs to be both preserved for 3 years (in agreement with OSU policy) and shared as openly as possible. 
 
 •	archiving and preservation – my PI, primarily, but I will definitely play some kind of role here
 
-•	data manager – me
+•	data manager – me, this will pass to my PI when I leave
 
 •	protection of sensitive and protected data – unnecessary
 
@@ -35,27 +35,26 @@ Our research data must comply with our funder, which is the NIH. This will requi
 
 •	software creation and maintenance – if it becomes necessary, me, but this is largely not applicable
 
-The data will be stored on several lab computers locally, in the cloud (via OneDrive), and, for the very large datasets I expect to generate, on the Boreal supercomputer at the Pacific Northwest CryoEM Center (PNCC). I plan to further backup my data (that is stored locally) to external hard-drives which will stay in the lab. For the very large datasets, those are managed and backed up at PNCC.
+The data will be stored on several lab computers locally, in the cloud (via OneDrive), and, for the very large datasets I expect to generate, on the MyEMSL archive at PNNL. I plan to further backup my data (that is stored locally) to external hard-drives which will stay in the lab. For the very large datasets, those are managed and backed up by the MyEMSL repository.
 
 ## Data standards and metadata
 
-For my final structural data (i.e. the final models generated from my work), we will use the PDB metadata standard. For the rest of my data, I will keep it organized with file names (this has been working well for me so far: yyyymmdd-expID) mostly. My data shouldn’t really need version control, but I plan to use careful naming conventions to keep track of versions. I’m planning to record the kind of instruments and what models they are (i.e. I’m using an HPLC instrument for a lot of my work, so I’ll record what brand and model it is), the software we’re using, and basic parameters for my methods (i.e. the concentrations of my reagents). I’ll record this information in a readme file as I go through my degree (probably yearly) and upload it to my lab’s shared cloud space.
+For my final structural data (i.e. the final models generated from my work), we will use the PDB metadata standard. The raw micrograph data will be deposited with a metadata.txt file automatically generated by the PNCC that contains basic data collection parameters. For the rest of my data, I will keep it organized with file names (this has been working well for me so far: yyyymmdd-expID) mostly. My data shouldn’t really need version control, but I plan to use careful naming conventions to keep track of versions. I’m planning to record the kind of instruments and what models they are (i.e. I’m using an HPLC instrument for a lot of my work, so I’ll record what brand and model it is), the software we’re using, and basic parameters for my methods (i.e. the concentrations of my reagents). I’ll record this information in a readme file as I go through my degree (probably yearly) and upload it to my lab’s shared cloud space.
 
 ## Storage and security
 
 None of the datasets that have been or will be generated by this project need to be protected so to share them, we will make them publicallly available as follows:
 
-•	when you will make it available – for the model data, up to a year or so prior to publication; for the image, video, and graphing data, upon publication 
+•	when you will make it available – for the model and raw micrograph data, up to a year or so prior to publication; for the image, video, and graphing data, upon publication 
 
-•	how and where you will make data available – for the model data, either in the PDB or EMDB (which are repositories for structural data, there is a possibility that the data will end up in both); for the image, video, and graphing data, we’ll deposit it in an open repository like Zenodo
+•	how and where you will make data available – for the model data, either in the PDB or EMDB (which are repositories for structural data, there is a possibility that the data will end up in both); for the raw micrographs needed to generate the model data, these will be stored on the MyEMSL archive; for the image, video, and graphing data, we’ll deposit it in an open repository like Zenodo.
 
 ## Access and data sharing
 
-Our model data will be made available in the common PDB/mmCIF format (for the model) and EM Map format (for the processed volume data, this is not quite the raw data files but it is commonly used to validate published models for cryo-EM). Our image data will be deposited as .tif files (which is the highest quality I can use), video data will be deposited in image stacks of .tif files, and the graph data will be deposited as both raw and processed data – for the image, video, and graph data, there will be an accompanying readme file with metadata
-The model data will be under a CC0 license, so it will be as openly available as possible, as is standard for the PDB. The image, video, and graphing data will likely be deposited with a CC-BY license, so it will be openly available but use would need to be attributed to us
+Our model data will be made available in the common PDB/mmCIF format (for the model) and EM Map format (for the processed volume data, this is not quite the raw data files but it is commonly used to validate published models for cryo-EM). Our raw micrograph data will be available as .tar files, which is standard for these data. Our image data will be deposited as .tif files (which is the highest quality I can use), video data will be deposited in image stacks of .tif files, and the graph data will be deposited as both raw and processed data – for the image, video, and graph data, there will be an accompanying readme file with metadata.
+The model data will be under a CC0 license, so it will be as openly available as possible, as is standard for the PDB. The image, video, and graphing data will likely be deposited with a CC-BY license, so it will be openly available but use would need to be attributed to us.
 
 ## Archiving and preservation
 
-As far as I can tell, the PDB/EMDB has special protections, and some version of it will likely remain preserved into perpetuity although the exact details of how long that is and how that will be achieved is unclear to me. The remaining data will be preserved by the repository we pick, which is estimated to be operational for at least the next 20 years. Access to the data stored in repositories will be maintained by the repositories themselves.
-The model data will be preserved as .pdb or .cif formats, the EM map data will be preserved as .map files, the images and videos will be .tif files, and the graphing data will be both .cdf (an unusual file format as far as I know) and .csv (this format is much more amenable for preservation) files
-
+As far as I can tell, the PDB/EMDB has special protections, and some version of it will likely remain preserved into perpetuity although the exact details of how long that is and how that will be achieved is unclear to me. The MyEMSL archive has plans to maintain data into perpetuity as tape archives, although how that will be achieved is, again, a mystery to me. The remaining data will be preserved by the repository we pick; for example, Zenodo is estimated to be operational for at least the next 20 years. Access to the data stored in repositories will be maintained by the repositories themselves.
+The model data will be preserved as .pdb or .cif formats, the EM map data will be preserved as .map files, the micrograph data will be .tar files, the images and videos will be .tif files, and the graphing data will be both .cdf (an unusual file format as far as I know) and .csv (this format is much more amenable for preservation) files.
