@@ -42,7 +42,7 @@ Our research data must comply with Oregon State University's policies on data ma
 
 The data will be stored on several lab computers locally, in the cloud (via OneDrive), and, for the very large datasets I expect to generate, on the PDB repository as well as the MyEMSL archive at PNNL. I plan to further backup my data (that is stored locally) to external hard-drives which will stay in the lab. For the very large datasets, those are managed and backed up by the PDB and MyEMSL repositories.
 
-Management of the physical samples will be handled by me at OSU. Grids that get sent for analysis are kept by PNCC for up to 6 months. Purified protein sent out for analysis elsewhere (i.e. to the proteomics shared resource at OHSU) is managed by that facility - they largely don't keep samples and instead analyze them as soon as possible.
+Management of the physical samples will be handled by me at OSU. Grids that get sent for analysis are kept by PNCC for up to 6 months. Purified protein sent out for analysis at the proteomics shared resource at OHSU and is managed by that facility - they largely don't keep samples and instead analyze them as soon as possible.
 
 ## Data standards and metadata
 
